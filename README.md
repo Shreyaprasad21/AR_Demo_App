@@ -21,7 +21,7 @@ A demo Augmented Reality (AR) application developed using Unity, intended to all
 ### Project Setup
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/Unity-AR-App.git
+https://github.com/Shreyaprasad21/Unity-AR-Application.git
 ```
 
 2. Open the project: Open Unity Hub, click on Add, and select the cloned project folder.
@@ -60,9 +60,3 @@ Feel free to fork this repository and make improvements. Pull requests are welco
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For questions, issues, or suggestions, please contact himankguptaa@gmail.com.
-
-## Demonstration
-https://github.com/himankgupta1/Unity-AR-Application/assets/142075465/c485498b-9360-4230-80c9-90a47c435847
