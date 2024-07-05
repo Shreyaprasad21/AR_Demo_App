@@ -1,31 +1,68 @@
-# Metaverse AR APP - Using Unity
-## Historical Explorer App   
+# Unity AR Application
 
-## Overview
-The **Historical Explorer App** is a cutting-edge application that allows users to embark on a virtual journey through time. This app leverages advanced augmented reality (AR) technology and historical maps to transform the way users interact with their surroundings. By using this app, users can explore how their current location appeared in different time periods, offering an immersive experience into the past.
+A demo Augmented Reality (AR) application developed using Unity, intended to allow users to view a certain city as it appeared in ancient times. This initial version contains a simple 3D box model to demonstrate basic AR functionality.
 
 ## Features
-- **Augmented Reality Integration**: Seamlessly blends the present with the past using state-of-the-art AR technology, providing a visually stunning and interactive experience.
-- **Historical Maps**: Access a comprehensive database of meticulously curated historical maps, ensuring accuracy and depth in historical representation.
-- **Time Travel**: Effortlessly switch between different time periods to see how your surroundings evolved over centuries.
-- **Informative Pop-ups**: Detailed information about the historical significance of various locations, offering users a rich educational experience.
-- **Interactive User Interface**: Intuitive and user-friendly interface designed for users of all ages to navigate through history with ease.
+- Basic AR environment setup
+- Simple 3D box model placed in the AR scene
+- Demonstrates potential for viewing ancient cities in AR
 
-## Technology Stack
-- **Frontend**: React Native, Three.js for AR rendering, Mapbox for map integration.
-- **Backend**: Node.js, Express.js, MongoDB for database management.
-- **AR Integration**: ARKit for iOS, ARCore for Android.
-- **API Integration**: Historical data APIs for accurate historical information and map data.
+## Requirements
+- Unity 2020.3 or later
+- AR Foundation package
+- ARCore XR Plugin (for Android) or ARKit XR Plugin (for iOS)
 
-## How It Works
-1. **Launch the App**: Open the Historical Explorer App on your device.
-2. **Point Your Camera**: Use your device's camera to capture your current surroundings.
-3. **Select a Time Period**: Choose a historical era from the provided timeline.
-4. **Experience the Past**: Watch as your current location transforms, displaying historical buildings, landscapes, and other significant features from the chosen time period.
-5. **Explore and Learn**: Tap on historical points of interest to learn more about the history and significance of the area.
+## Getting Started
+### Prerequisites
+1. Install Unity Hub: Download and install Unity Hub.
+2. Install Unity: Through Unity Hub, install the Unity Editor (version 2020.3 or later).
+3. Setup AR Foundation: Open your project in Unity, go to Window -> Package Manager, and install the AR Foundation package along with ARCore XR Plugin (for Android) or ARKit XR Plugin (for iOS).
 
-## Installation
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/username/historical-explorer-app.git
-   cd historical-explorer-app
+### Project Setup
+1. **Clone the repository**:
+```bash
+git clone https://github.com/yourusername/Unity-AR-App.git
+```
+
+2. Open the project: Open Unity Hub, click on Add, and select the cloned project folder.
+
+3. Build settings:
+- Go to File -> Build Settings.
+- Select Android or iOS as your platform.
+- Click on Switch Platform.
+
+4. Player settings:
+
+- In the Build Settings window, click on Player Settings.
+- Under Other Settings, set the Package Name (for Android) or Bundle Identifier (for iOS).
+- Enable ARCore or ARKit in the XR Settings section based on your target platform.
+
+## Running the App
+1. Connect your device:
+- For Android, enable Developer Options and USB Debugging.
+- For iOS, connect your device via USB and ensure it is registered in your Apple Developer account.
+
+2. Build and Run:
+- Go to File -> Build and Run.
+- Unity will build the project and deploy it to your connected device.
+
+## Usage
+- Launch the app on your device.
+- Grant necessary permissions for camera and AR functionality.
+- Move your device around to detect surfaces and view the AR box.
+
+## Deployment
+- The app has been successfully deployed on Android.
+- Attached are photos and videos showcasing the app in action.
+
+## Contributing
+Feel free to fork this repository and make improvements. Pull requests are welcome!
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For questions, issues, or suggestions, please contact himankguptaa@gmail.com.
+
+## Demonstration
+https://github.com/himankgupta1/Unity-AR-Application/assets/142075465/c485498b-9360-4230-80c9-90a47c435847
